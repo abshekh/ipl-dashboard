@@ -82,7 +82,7 @@ public class BatchConfig {
       )
       .sql(
         "INSERT INTO match (id, city, date, player_of_match, venue, neutral_venue, team1, team2, toss_winner, toss_decision, match_winner, result, result_margin, umpire1, umpire2)" +
-        " VALUES (:id, :city, :date, :playerOfMatch, :venue, :neutralVenue, :team1, :team2, :tossWinner, :tossDecision, :winner, :result, :resultMargin, :umpire1, :umpire2)"
+        " VALUES (:id, :city, :date, :playerOfMatch, :venue, :neutralVenue, :team1, :team2, :tossWinner, :tossDecision, :matchWinner, :result, :resultMargin, :umpire1, :umpire2)"
       )
       .dataSource(dataSource)
       .build();

@@ -1,13 +1,17 @@
 package io.github.abshekh.ipldashboard.data;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * MatchInput
  */
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class MatchInput {
 
   private String id;
